@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+       on-profile: "prod"
+
+cards:
+  message: "Welcome to HDFC Bank Cards Production related local APIs "
+  contactDetails:
+    name: "Sachin Patil - Prod Manager"
+    email: "sachin@hdfc.com"
+  onCallSupport:
+    - (020) 2345678901

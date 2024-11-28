@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+       on-profile: "qa"
+   
+accounts:
+  message: "Welcome to HDFC Bank accounts  QA related local APIs "
+  contactDetails:
+    name: "Amol Patil - QA Manager"
+    email: "amol@hdfc.com"
+  onCallSupport:
+    - (020) 1234567890
+    
