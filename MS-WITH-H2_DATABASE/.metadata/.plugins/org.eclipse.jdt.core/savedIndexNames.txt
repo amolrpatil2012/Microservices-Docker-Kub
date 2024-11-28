@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\CORPORATE TRAINING\SYNCH-MS\Microservices\MS-WITH-H2_DATABASE\.metadata\.plugins\org.eclipse.jdt.core
+2389627790.index
+141477583.index
+3716540169.index
+31980486.index
+1865797976.index
