@@ -1,7 +1,5 @@
-spring:
-  config:
-    activate:
-       on-profile: "prod"
+build:
+ version: "2.0"
 
 cards:
   message: "Welcome to HDFC Bank Cards Production related local APIs "

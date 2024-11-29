@@ -1,0 +1,11 @@
+build:
+ version: "3.0"
+ 
+accounts:
+  message: "Welcome to HDFC Bank accounts related local APIs "
+  contactDetails:
+    name: "Amol Patil - Manager"
+    email: "amol@hdfc.com"
+  onCallSupport:
+    - (020) 1234567890
+    

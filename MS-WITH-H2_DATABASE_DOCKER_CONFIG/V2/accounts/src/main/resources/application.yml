@@ -1,27 +1,24 @@
 spring:
-  datasource:
-   url: jdbc:h2:mem:testdb
-   driverClassName: org.h2.Driver
-   username: sa
-   password: ''
-  h2:
-   console:
-    enabled: true
-  jpa:
-   hibernate:
-    ddl-auto: update
-   show-sql: true
-  config:
-   import:
-    - "application_qa.yml"
-    - "application_prod.yml"
+  application:
+    name: "accounts"
   profiles:
-   active: "qa"   
-accounts:
-  message: "Welcome to HDFC Bank accounts related local APIs "
-  contactDetails:
-    name: "Amol Patil - Manager"
-    email: "amol@hdfc.com"
-  onCallSupport:
-    - (020) 1234567890
-    
+    active: "prod"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ""
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+    import: "optional:configserver:http://localhost:8071"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

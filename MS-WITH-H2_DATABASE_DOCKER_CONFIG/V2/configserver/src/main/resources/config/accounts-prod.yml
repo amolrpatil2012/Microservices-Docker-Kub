@@ -1,8 +1,6 @@
-spring:
-  config:
-    activate:
-       on-profile: "prod"
-   
+build:
+ version: "3.0"
+    
 accounts:
   message: "Welcome to HDFC Bank accounts Production related local APIs "
   contactDetails:

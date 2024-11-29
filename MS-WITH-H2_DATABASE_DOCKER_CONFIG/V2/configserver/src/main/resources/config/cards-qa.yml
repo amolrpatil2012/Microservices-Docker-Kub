@@ -1,7 +1,5 @@
-spring:
-  config:
-    activate:
-       on-profile: "qa"
+build:
+ version: "3.0"
 
 cards:
   message: "Welcome to HDFC Bank Cards QA related local APIs "
