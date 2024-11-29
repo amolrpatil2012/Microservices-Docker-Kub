@@ -1,0 +1,10 @@
+build:
+ version: "2.0"
+
+loans:
+  message: "Welcome to HDFC Bank Loans QA related local APIs "
+  contactDetails:
+    name: "Sid Patil - QA Manager"
+    email: "sid@hdfc.com"
+  onCallSupport:
+    - (020) 3456789012

@@ -1,0 +1,10 @@
+build:
+ version: "3.0"
+
+loans:
+  message: "Welcome to HDFC Bank Loans related local APIs "
+  contactDetails:
+    name: "Sid Patil - Manager"
+    email: "sid@hdfc.com"
+  onCallSupport:
+    - (020) 3456789012

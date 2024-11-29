@@ -1,0 +1,10 @@
+build:
+ version: "2.0" 
+
+cards:
+  message: "Welcome to HDFC Bank Cards related local APIs "
+  contactDetails:
+    name: "Sachin Patil - Manager"
+    email: "sachin@hdfc.com"
+  onCallSupport:
+    - (020) 2345678901

@@ -1,0 +1,10 @@
+build:
+ version: "3.0"
+
+cards:
+  message: "Welcome to HDFC Bank Cards QA related local APIs "
+  contactDetails:
+    name: "Sachin Patil - QA Manager"
+    email: "sachin@hdfc.com"
+  onCallSupport:
+    - (020) 2345678901
